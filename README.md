@@ -1,2 +1,2 @@
-# spring-certification-repo
+# Spring Certification
 https://spring.academy/paths
