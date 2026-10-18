@@ -12,6 +12,11 @@ https://spring.academy/paths
 ## IMPORTANT COURSES
 [REST API concepts & Implementing GET](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-get)
 
+[Implementing POST and Idempotency](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-post)
+
+[GET for a list, Pagination](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/get-list)
+
+
 ---
 ## COMMANDS
 ```
