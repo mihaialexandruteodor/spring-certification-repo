@@ -8,6 +8,7 @@ https://spring.academy/paths
 - [x] lab 3: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/first-rest-endpoint-lab/lab
 - [x] lab 4: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/spring-data-lab
 - [x] lab 5: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/create-post-lab/lab
+- [x] lab 6: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/get-list-lab/lab
 
 ## IMPORTANT COURSES
 [REST API concepts & Implementing GET](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-get)
