@@ -10,6 +10,7 @@ https://spring.academy/paths
 - [x] lab 5: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/create-post-lab/lab
 - [x] lab 6: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/get-list-lab/lab
 - [x] lab 7: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/simple-spring-security-lab/lab
+- [x] lab 8: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-put-lab/lab
 
 ## IMPORTANT COURSES
 [REST API concepts & Implementing GET](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-get)
@@ -19,6 +20,8 @@ https://spring.academy/paths
 [GET for a list, Pagination](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/get-list)
 
 [Spring Security](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/simple-spring-security)
+
+[PUT, PATCH and POST](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-put)
 ---
 ## COMMANDS
 ```
@@ -41,3 +44,14 @@ cd cashcard
 - [x] The most basic mechanism of protection relies on HTTP clients and servers implementing the Same Origin Policy (SOP). This policy states that only scripts which are contained in a web page are allowed to send requests to the origin (URI) of the web page.
 
 - [x] Sometimes a system consists of services running on several machines with different URIs (i.e. Microservices). Cross-Origin Resource Sharing (CORS) is a way that browsers and servers can cooperate to relax the SOP. A server can explicitly allow a list of “allowed origins” of requests coming from an origin outside the server’s.
+
+
+### LAB 8
+
+- [x] If you need the server to return the URI of the created resource (or the data you use to construct the URI), then you must use **POST**. Alternatively, when the resource URI is known at creation time (as is the case in our example Invoice API), you can use **PUT**.
+- [x] POST creates a sub-resource (child resource) under (after), or within the request URI. This is what the Cash Card API does: The client calls the Create endpoint at `POST /cashcards`, but the actual URI of the created resource contains a generated ID at the end: `/cashcards/101`
+- [x] PUT creates or replaces (updates) a resource at a specific request URI. For the  `/invoice`  example above, the Create endpoint would be  PUT `/invoice/1234-567`  , and the URI of the created resource would be the same as the URI sent in the  PUT  request.
+
+.
+
+.
