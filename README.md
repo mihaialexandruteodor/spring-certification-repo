@@ -1,7 +1,9 @@
 # Spring Certification
 https://spring.academy/paths
 
-## LABS
+# LABS
+
+## Building a REST API with Spring Boot
 
 - [x] lab 1: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/bootstrap-lab/lab
 - [x] lab 2: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/test-first-lab/lab
@@ -11,8 +13,12 @@ https://spring.academy/paths
 - [x] lab 6: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/get-list-lab/lab
 - [x] lab 7: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/simple-spring-security-lab/lab
 - [x] lab 8: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-put-lab/lab
+- [x] lab 9: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-delete-lab/lab
 
-## IMPORTANT COURSES
+# IMPORTANT COURSES
+
+## Building a REST API with Spring Boot
+
 [REST API concepts & Implementing GET](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-get)
 
 [Implementing POST and Idempotency](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-post)
@@ -22,8 +28,10 @@ https://spring.academy/paths
 [Spring Security](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/simple-spring-security)
 
 [PUT, PATCH and POST](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-put)
----
-## COMMANDS
+
+[DELETE](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-delete)
+
+# COMMANDS
 ```
 cd cashcard
 ./gradlew build
@@ -51,7 +59,7 @@ cd cashcard
 - [x] If you need the server to return the URI of the created resource (or the data you use to construct the URI), then you must use **POST**. Alternatively, when the resource URI is known at creation time (as is the case in our example Invoice API), you can use **PUT**.
 - [x] POST creates a sub-resource (child resource) under (after), or within the request URI. This is what the Cash Card API does: The client calls the Create endpoint at `POST /cashcards`, but the actual URI of the created resource contains a generated ID at the end: `/cashcards/101`
 - [x] PUT creates or replaces (updates) a resource at a specific request URI. For the  `/invoice`  example above, the Create endpoint would be  PUT `/invoice/1234-567`  , and the URI of the created resource would be the same as the URI sent in the  PUT  request.
+- [x] 204 no content should be returned for DELETE and PUT: [developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/204](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/204)
 
-.
-
-.
+### LAB 9
+- [x] A simple option, called **hard delete**, is to delete the record from the database. With a hard delete, it’s gone forever. So, what can we do if we need data that existed prior to its deletion? An alternative is soft delete which works by marking records as "deleted" in the database (so that they're retained, but marked as deleted). For example, we can introduce an `IS_DELETED` boolean or a  `DELETED_DATE` timestamp column and then set that value-instead of fully removing the record by deleting the database row(s). With a soft delete, we also need to change how Repositories interact with the database. For example, a repository needs to respect the “deleted” column and exclude records marked deleted from Read requests.
