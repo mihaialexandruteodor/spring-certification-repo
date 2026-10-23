@@ -31,6 +31,10 @@ https://spring.academy/paths
 
 [DELETE](https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-delete)
 
+## Introduction to the Spring Professional Learning Path
+
+[Rewards Reference Domain](https://spring.academy/courses/spring-introduction/lessons/spring-introduction-rewards-reference-domain)
+
 # COMMANDS
 ```
 cd cashcard
