@@ -15,6 +15,8 @@ https://spring.academy/paths
 - [x] lab 8: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-put-lab/lab
 - [x] lab 9: https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/implementing-delete-lab/lab
 
+## Spring Framework Essentials
+
 # IMPORTANT COURSES
 
 ## Building a REST API with Spring Boot
@@ -34,6 +36,10 @@ https://spring.academy/paths
 ## Introduction to the Spring Professional Learning Path
 
 [Rewards Reference Domain](https://spring.academy/courses/spring-introduction/lessons/spring-introduction-rewards-reference-domain)
+
+## Spring Framework Essentials
+
+[Agenda](https://spring.academy/courses/spring-framework-essentials/lessons/agenda)
 
 # COMMANDS
 ```
