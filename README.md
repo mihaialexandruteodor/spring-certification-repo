@@ -18,6 +18,7 @@ https://spring.academy/paths
 ## Spring Framework Essentials
 
 - [x] lab 1: https://spring.academy/courses/spring-framework-essentials/lessons/spring-essentials-overview-lab
+- [x] lab 1 demo: https://spring.academy/courses/spring-framework-essentials/lessons/spring-essentials-overview-lab-demo
 
 # IMPORTANT COURSES
 
