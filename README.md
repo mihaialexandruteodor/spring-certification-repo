@@ -41,6 +41,7 @@ https://spring.academy/paths
 
 [Agenda](https://spring.academy/courses/spring-framework-essentials/lessons/agenda)
 [The Dependency Injection (DI) Container](https://spring.academy/courses/spring-framework-essentials/lessons/container)
+[Spring Framework History](https://spring.academy/courses/spring-framework-essentials/lessons/spring-essentials-overview-history)
 
 # COMMANDS
 ```
