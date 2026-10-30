@@ -17,6 +17,8 @@ https://spring.academy/paths
 
 ## Spring Framework Essentials
 
+- [x] lab 1: https://spring.academy/courses/spring-framework-essentials/lessons/spring-essentials-overview-lab
+
 # IMPORTANT COURSES
 
 ## Building a REST API with Spring Boot
@@ -79,3 +81,6 @@ cd cashcard
 - [x] A simple option, called **hard delete**, is to delete the record from the database. With a hard delete, it’s gone forever. So, what can we do if we need data that existed prior to its deletion? An alternative is soft delete which works by marking records as "deleted" in the database (so that they're retained, but marked as deleted). For example, we can introduce an `IS_DELETED` boolean or a  `DELETED_DATE` timestamp column and then set that value-instead of fully removing the record by deleting the database row(s). With a soft delete, we also need to change how Repositories interact with the database. For example, a repository needs to respect the “deleted” column and exclude records marked deleted from Read requests.
 
 ## Spring Framework Essentials
+
+### LAB 1
+- [x] **POJO** comes from Plain Old Java Objects.
